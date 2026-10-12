@@ -98,7 +98,7 @@ st.subheader('Tra cứu thông tin sinh viên')
 ten_chon = st.selectbox('Chọn một sinh viên:', df['Họ và tên'].tolist())
 
 # • Khi chọn sinh viên, hiển thị điểm Chuyên cần, Giữa kỳ, Cuối kỳ, Điểm tổng kết và Xếp loại của sinh viên đó.
-thong_tin_sv = df[df['Họ và tên'] == ten_chon].iloc
+thong_tin_sv = df[df['Họ và tên'] == ten_chon].iloc[0]
 st.write(f'**Thông tin chi tiết của sinh viên {ten_chon}:**')
 st.write(f"- Điểm Chuyên cần: **{thong_tin_sv['Điểm chuyên cần']}**")
 st.write(f"- Điểm Giữa kỳ: **{thong_tin_sv['Điểm giữa kỳ']}**")
