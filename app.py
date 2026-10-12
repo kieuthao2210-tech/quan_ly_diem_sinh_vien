@@ -122,4 +122,4 @@ st.pyplot(fig)
 
 # • Hiển thị họ tên và MSSV chữ nhỏ ở cuối trang Web App.
 st.markdown('<br><hr>', unsafe_allow_html=True)
-st.caption('Người tạo ứng dụng: Kiều Phương Thảo - MSSV: KiềuPhươngThảo50')
+st.caption('Người tạo ứng dụng: Kiều Phương Thảo - MSSV: 026308009238')
